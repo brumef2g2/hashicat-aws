@@ -4,6 +4,7 @@ terraform {
     organization = "BrumeOrg"
     workspaces {
       name = "hashicat-aws"
+      # This is a test
     }
   }
 }
