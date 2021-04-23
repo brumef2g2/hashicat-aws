@@ -9,3 +9,4 @@ output "catapp_url" {
 
 output "s3 bucket" {
   value = "http://${this_s3_bucket_bucket_regional_domain_name}"
+}
