@@ -6,7 +6,7 @@ output "catapp_url" {
 #output "catapp_ip" {
 #  value = "http://${aws_eip.hashicat.public_ip}"
 #}
-
-output "s3_bucket" {
-  value = "http://${this_s3_bucket_bucket_regional_domain_name}"
-}
+#
+#output "s3_bucket" {
+#  value = "http://${this_s3_bucket_bucket_regional_domain_name}"
+#}
