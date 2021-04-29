@@ -11,7 +11,7 @@ cat << EOM > /var/www/html/index.html
   <!-- BEGIN -->
   <center><img src="http://${PLACEHOLDER}/${WIDTH}/${HEIGHT}"></img></center>
   <center><h2>Meow World!</h2></center>
-  Welcome to Sovos ${PREFIX}'s app. Replace this text with your own.
+  Welcome to our ${PREFIX}'s app. The infrastructure for this application was created using TF. I hope you enjoy it....
   <!-- END -->
 
   </div>
