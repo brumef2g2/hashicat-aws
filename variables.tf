@@ -8,6 +8,16 @@
 variable "prefix" {
   description = "This prefix will be included in the name of most resources."
 }
+variable "instances_per_subnet" {
+  description = "Number of EC2 instances in each private subnet"
+  type        = number
+  default     = 2
+}
+variable "instance_count" {
+  description = "Number of EC2 instances"
+  type        = number
+  default     = 2
+}
 
 variable "region" {
   description = "The region where the resources are created."
